@@ -168,6 +168,10 @@ p {
 
 .section-4 {
   height: 720px;
+  background-color: black;
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVmbWM0ODAzbHdkbHZsZ3Fid3ZleGR2M2k5NGVtbDU5cWE1em01eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aTIrTw1ckKbqra8/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-4 #cit {
@@ -194,7 +198,7 @@ p {
   font-style: normal;
   position: absolute;
   top: 348px;
-  opacity: 15%;
+  opacity: 50%;
 }
 
 /*  секция правил  */
