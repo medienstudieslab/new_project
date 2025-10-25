@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1280px;
+  height: 5846px;
+  margin: 0 auto;
+  position: relative;
+  font-family: "Compacta BT";
+  background-color: blue;
+  color: white;
+}
+
+/* body::after {
+  width: 1280px;
+  height: 5846px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("/images/website.png");
+  opacity: 0.1;
+} */
+
+section {
+  position: relative;
+}
+
+h1 {
+  font-size: 445px;
+  letter-spacing: -13px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 445px;
+  letter-spacing: -13px;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.aligner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+/* секция 1 */
+.section-1 {
+  height: 800px;
+}
+
+.section-1 h3 {
+  font-size: 445px;
+  letter-spacing: -13px;
+  text-align: center;
+}
+.header {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header #al-end {
+  text-align: end;
+}
+
+#main {
+  padding: 60px 0;
+}
+
+#align-1 {
+  margin-top: -70px;
+}
+
+.text {
+  margin: 0 auto;
+  width: 786px;
+  text-align: center;
+}
+
+#text-1 {
+  margin-top: 40px;
+}
+
+/* секция 2 */
+
+.section-2 {
+  height: 724px;
+}
+
+.section-2 #poisk {
+  position: relative;
+}
+.section-2 h2 {
+  font-size: 445px;
+  letter-spacing: -13px;
+  display: flex;
+  justify-content: center;
+  -webkit-text-stroke: 3px rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, 25%);
+}
+.section-2 h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, 25%);
+}
+
+.section-2 #text-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin-top: 190px;
+}
+
+/* секция 3 */
+.section-3 {
+  height: 1369px;
+}
+
+.section-3 #sense {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.section-3 #∂ {
+  position: absolute;
+
+  top: 560px;
+  left: 1006px;
+  /* left: 1006px;
+  top: 560px; */
+}
+
+.section-3 #¶ {
+  position: absolute;
+  left: 24px;
+  top: 860px;
+}
+
+.section-3 p {
+  position: absolute;
+
+  top: 1000px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+/*  секция 4  */
+
+.section-4 {
+  height: 720px;
+}
+
+.section-4 #cit {
+  position: absolute;
+  top: 240px;
+  left: 717px;
+  width: 481px;
+}
+
+.section-4 blockquote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+}
+
+.section-4 p:nth-of-type(1) {
+  text-transform: none;
+  font-style: italic;
+  position: absolute;
+  top: 204px;
+}
+
+.section-4 p:nth-of-type(2) {
+  text-transform: none;
+  font-style: normal;
+  position: absolute;
+  top: 348px;
+  opacity: 15%;
+}
+
+/*  секция правил  */
+.section-5 {
+  position: relative;
+  height: 1509px;
+}
+
+.section-5 .row-1 {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  width: 1280px;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.section-5 .row-2 {
+  position: absolute;
+  top: 580px;
+  left: 0px;
+  width: 1280px;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+.menu {
+  width: 532px;
+
+  display: inline-block;
+}
+
+.menu div:nth-of-type(1) {
+  width: 100px;
+}
+.menu div:nth-of-type(2) {
+  width: 432px;
+  position: absolute;
+  top: 20px;
+}
+
+.section-5 h2 {
+  font-size: 223px;
+  -webkit-text-stroke: 3px rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 0);
+}
+
+.menu div {
+  width: 456px;
+  height: 300px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: relative;
+}
+
+.section-5 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.section-5 ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  list-style-position: outside;
+  list-style-type: disc;
+  padding-left: 24px;
+
+  /* list-style-image: url("/images/bl\ heart.svg"); */
+}
+
+.section-5 li {
+  margin: 24px 0;
+}
+
+.section-5 #Aa {
+  position: absolute;
+  top: 330px;
+  right: -100px;
+}
