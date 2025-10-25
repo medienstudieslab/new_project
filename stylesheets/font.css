@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Compacta BT";
-  src: url(../fonts/Compacta-BT-Roman.ttf) format("truetype");
+  src: url("../fonts/Compacta-BT-Roman.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
 }
