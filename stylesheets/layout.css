@@ -20,7 +20,7 @@ body {
   top: 0;
   left: 0;
   background-image: url("/images/website.png");
-  opacity: 0.1;
+  opacity: 0.4;
 } */
 
 section {
@@ -131,6 +131,7 @@ p {
 
 /* секция 3 */
 .section-3 {
+  position: relative;
   height: 1369px;
 }
 
@@ -139,6 +140,13 @@ p {
   top: 7%;
   left: 50%;
   transform: translate(-50%, 0%);
+}
+
+.section-3 #lupa {
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 130px;
+  /* z-index: -100; */
 }
 
 .section-3 #∂ {
@@ -198,7 +206,7 @@ p {
   font-style: normal;
   position: absolute;
   top: 348px;
-  opacity: 50%;
+  opacity: 5%;
 }
 
 /*  секция правил  */
